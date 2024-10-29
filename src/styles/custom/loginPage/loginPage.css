@@ -1,0 +1,23 @@
+.login-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../../../assets/images/Arr-ezgif.com-video-to-gif-converter.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.gx-app-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(203 201 205);
+  max-width: 400px; /* Adjust as needed */
+  margin-left: 5%; /* 5% left margin */
+  margin-top: auto; /* Centers vertically */
+  margin-bottom: auto; /* Centers vertically */
+  padding: 20px; /* Optional padding for the content */
+  border-radius: 8px; /* Optional for rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}

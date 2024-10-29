@@ -1,0 +1,46 @@
+.contactInfo {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 24px;
+}
+.contactInfo2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.rfpHead {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+
+.poplevel {
+  display: flex !important;
+}
+
+.pophead {
+  margin-right: 14px;
+  font-size: 14px;
+  margin-bottom: 7px;
+  color: #929496;
+}
+
+.custom-input-number input::-webkit-inner-spin-button,
+.custom-input-number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-input-number input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.AdjustWidth {
+  max-width: 60%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
