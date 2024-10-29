@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Drawer, Layout } from 'antd';
 
-import { toggleCollapsedSideNav } from '../../../../redux/features/layout/layoutSlice';
+// import { toggleCollapsedSideNav } from '../../../../redux/features/layout/layoutSlice';
 import SidebarContent from './SidebarContent';
 
 const { Sider } = Layout;
@@ -14,7 +14,7 @@ const Sidebar = () => {
   const dispatch = useDispatch();
 
   const onToggleCollapsedNav = () => {
-    dispatch(toggleCollapsedSideNav(!navCollapsed));
+    // dispatch(toggleCollapsedSideNav(!navCollapsed));
   };
 
   let drawerStyle = '';

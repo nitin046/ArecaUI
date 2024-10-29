@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Layout } from 'antd';
-import { updateWindowWidth } from '../../../../redux/features/layout/layoutSlice';
+// import { updateWindowWidth } from '../../../../redux/features/layout/layoutSlice';
 import { Outlet } from 'react-router-dom';
 const { Content, Footer } = Layout;
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Layout } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
-import { updateWindowWidth } from '../../../../redux/features/layout/layoutSlice';
+// import { updateWindowWidth } from '../../../../redux/features/layout/layoutSlice';
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
 
@@ -12,7 +12,7 @@ const MainLayout = () => {
 
   useEffect(() => {
     window.addEventListener('resize', () => {
-      dispatch(updateWindowWidth(window.innerWidth));
+      // dispatch(updateWindowWidth(window.innerWidth));
     });
   }, [dispatch]);
 
